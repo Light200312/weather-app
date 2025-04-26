@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <nav>
+          <div class="logo"><img width="120px" xmlns="http://www.w3.org/2000/svg" src="https://imgs.search.brave.com/6uK5_b8CgAZQX-hpfeVfbr7NPvYxv5h2ZaMf2YrJ_Vs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/cG5nbG9nby5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTcxNTk2NjUw/M2luc3RhZ3JhbS1s/b2dvLXdpdGgtdGV4/dC1wbmcucG5n" alt=""></div>
+          <div class="heart">
+            <img width="25px" src="https://clipart-library.com/images/RkcKMxkTj.png "></img>
+            <img width="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnN7qq4emchAVA3vEtWpxwRCcMHj6rcSswVSw0jqorFaomt-I&s" alt="">
+        </nav>
+        <div id="stories" class="stories">
+
+        
+        </div>
+        
+        <div class="vidcontainer">
+
+            <div class="vid">
+                <video onclick="playPause()" id="myVideo" src="/vids/job.mp4"  autoplay loop  ></video>
+                <button class="mute" onclick="muteUnmute()"><img   id="btn" width="15px" src="https://img.icons8.com/?size=48&id=87092&format=png" alt=""> </button>
+
+                <!-- <span class="mute" onclick="muteUnmute()"><img width="15px" src="https://img.icons8.com/?size=48&id=87092&format=png" alt=""> </span> -->
+             
+
+
+                <div class="popularity">
+                    <div class="like"><img width="20px" src="https://img.icons8.com/?size=48&id=85038&format=png" alt="">
+                        <span>4k</span>
+                        </div>
+                    <div class="conment"><img width="20px" src="https://img.icons8.com/?size=48&id=93386&format=png" alt=""><span>2.4k</span></div>
+                    <div  class="share">
+                        <img width="20px" src="https://img.icons8.com/?size=100&id=7874&format=png" alt=""><span>3.5k</span>
+                    </div>
+
+                </div>
+                <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae odit enim!</div>
+            </div>
+            
+            <div  class="vid">
+                <video onclick="playPause()" id="2myVideo" preload="none" src="/vids/com.mp4"   autoplay loop muted></video> 
+                <div class="video-controls">
+                    <button onclick="playPause()">▶️</button>
+                    <button onclick="muteUnmute()">🔊 </button>
+                   </div> 
+                 <div class="popularity">
+                    <div class="like"><img width="20px" src="https://img.icons8.com/?size=48&id=85038&format=png" alt="">
+                        <span>4k</span>
+                        </div>
+                    <div class="conment"><img width="20px" src="https://img.icons8.com/?size=48&id=93386&format=png" alt=""><span>2.4k</span></div>
+                    <div  class="share">
+                        <img width="20px" src="https://img.icons8.com/?size=100&id=7874&format=png" alt=""><span>3.5k</span>
+                    </div>
+
+                </div>
+                <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae odit enim!</div>
+            </div>
+            <div class="vid">
+                <video src="/vids/job.mp4"   autoplay loop muted></video>  <div class="popularity">
+                    <div class="like"><img width="20px" src="https://img.icons8.com/?size=48&id=85038&format=png" alt="">
+                        <span>4k</span>
+                        </div>
+                    <div class="conment"><img width="20px" src="https://img.icons8.com/?size=48&id=93386&format=png" alt=""><span>2.4k</span></div>
+                    <div  class="share">
+                        <img width="20px" src="https://img.icons8.com/?size=100&id=7874&format=png" alt=""><span>3.5k</span>
+                    </div>
+
+                </div>
+                <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae odit enim!</div>
+            </div>
+            <div class="vid">
+                <video src="/vids/job.mp4"   autoplay loop muted></video>  <div class="popularity">
+                    <div class="like"><img width="20px" src="https://img.icons8.com/?size=48&id=85038&format=png" alt="">
+                        <span>4k</span>
+                        </div>
+                    <div class="conment"><img width="20px" src="https://img.icons8.com/?size=48&id=93386&format=png" alt=""><span>2.4k</span></div>
+                    <div  class="share">
+                        <img width="20px" src="https://img.icons8.com/?size=100&id=7874&format=png" alt=""><span>3.5k</span>
+                    </div>
+
+                </div>
+                <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quae odit enim!</div>
+            </div>
+        </div>
+        <footer>
+            <img src="https://img.icons8.com/?size=48&id=86527&format=png" alt="">
+            <img src="https://img.icons8.com/?size=100&id=7695&format=png" alt="">
+            <img src="https://img.icons8.com/?size=128&id=SuPFstyooiwU&format=png" alt="">
+            <img src="https://img.icons8.com/?size=100&id=YoIaSvIehcuI&format=png" alt="">
+         <div class="profile"> </div>
+            
+        </footer>
+        <div class="fscintainer">
+
+            <div id="full-screen">
+                
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v4/yB/r/E7m8ZCMOFDS.png&quot;); background-position: 0px 0px; background-size: auto; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block; -->
